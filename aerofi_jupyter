@@ -1,0 +1,11 @@
+
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import warnings # Importing warnings to ignore warnings
+warnings.filterwarnings("ignore")
+In [3]:
+df=pd.read_csv(r"C:\Users\Himanshu\Desktop\Data science\Descriptive stats and probability\Aerofit Case study\aerofit.csv")
+df.head(20)
